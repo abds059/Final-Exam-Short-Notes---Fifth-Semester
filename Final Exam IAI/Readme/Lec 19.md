@@ -171,7 +171,7 @@ A system designed to mimick (replicate) the decision making capabilities of a hu
 
     #### Example
 
-    An expert system in agriculture mayadvise farmers on best time to plant crops based on soil moisture levels, expected rainfall and historical yield data
+    An expert system in agriculture may advise farmers on best time to plant crops based on soil moisture levels, expected rainfall and historical yield data
 
 --- 
 
