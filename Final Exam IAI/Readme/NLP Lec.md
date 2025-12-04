@@ -271,7 +271,7 @@ Removing stopwords helps in reducing dimensionality of the text data improving e
 
 - #### Semantic Ambiguity
 
-    - Occurs when a sentence or phrase can be interprated in multiple ways (even if syntax is clear)
+    - Occurs when a sentence or phrase can be interpreted in multiple ways (even if syntax is clear)
     - E.g, **He ate the cake with a spoon**
         - Used a spoon or cake had a spoon ?
     - #### Challenge: Need understanding of logical meaning
