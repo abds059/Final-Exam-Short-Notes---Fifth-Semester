@@ -145,12 +145,15 @@ As amount of knowledge grows management and navigation becomes complex
 #### Solutions
 
 - Modular Design 
+
     Break down into modules or sub networks
 
 - Hierarchial Structuring
+
     Use heirarchial approaches of representation
 
 - Automated Tools 
+
     Employ tools for automated infomation extraction
 
 ### 2. Ambiguity and Uncertainity
@@ -162,12 +165,15 @@ KR may struggle with ambigous information or uncertain information resulting in 
 #### Solutions
 
 - Probabilistic Models 
+
     Probabilistic reasoning to handle uncertainity
 
 - Contextual Information
+
     Incorporate context to improve accuracy and reduce ambiguity
 
 - Dynamic Updates
+
     Implement systems that continously update and refine knowledge
 
 ### 3. Knowledge Integration
@@ -179,12 +185,15 @@ Integration of knowledge from diverse sources/formats resulting in inconsistenci
 #### Solution
 
 - Standardized Formats
+
     Use standadized knwoledge representaion formats and protocols
 
 - Data Fusion
+
     Apply data fusion techniques for combining and reconciling information from variou sources
 
 - Ontologies and Mapping
+
     Use onotologies to map and align concepts from different domains
 
 #### 4. Human Factor
@@ -196,11 +205,14 @@ KR systems must be usable and understandable by humans
 #### Solutions
 
 - User Friendly Design 
+
     UI should be easy to navigate and use
 
 - Interactive Tools
+
     Provide tools to interact with and modify knowledge representations
 
 - Training and Support
+
     Offer training and support to users for effective use
 
