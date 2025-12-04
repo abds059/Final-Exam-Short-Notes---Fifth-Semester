@@ -210,3 +210,77 @@ Removing stopwords helps in reducing dimensionality of the text data improving e
     - Models trained on one domain may fail on other domains
 
 ---
+
+### Text Normalization
+
+- #### Lowercasing
+
+- #### Removing Punctuations and Special Chars
+
+- #### Handling Contractions
+
+- #### Stemming and Lemmatization
+
+- #### Removing Stopwords
+
+#### Challenges In Text Normalization
+
+- #### Language and Domain Specificity
+
+    Normalization should be language specific as different languages or domain have different morphological rules and different domains ahve different jargons 
+
+- #### Ambiguity In Normalization
+
+    Certain words/phrases may have many valid normalizations (like US and United States)
+
+- #### Balancing Consistency and Meaning
+
+    - Overnormalization may lead to loss of information
+    - Undernormalization may lead to inconsistency
+    - So balanced approach is needed
+
+---
+
+### NLU
+
+- Enable machines to interpret, extract and understand meaning from human language
+- Used in translation, chatbots, QA systems, sentiment analysis
+
+#### Importance
+
+- Bridges gap b/w human communication and machine processing 
+- Enables intelligent interaction
+
+### Challenges In NLU
+
+- Unlike structured data human language is utterly ambigous
+- This pose significant challenges to NLU systems
+
+- #### Lexical Ambiguity
+
+    - Occurs when single word has multiple meanings
+    - For e.g, the word `bank`
+    - #### Challenges: Requires context understanding
+
+- #### Syntactic Ambiguity
+
+    - Arises when a sentence structure can be parsed in multiple ways
+    - E.g, **`I saw a man with the telescope`**
+        - Who has the telescope ?
+    - #### Challenge: Grammer + context required
+
+- #### Semantic Ambiguity
+
+    - Occurs when a sentence or phrase can be interprated in multiple ways (even if syntax is clear)
+    - E.g, **He ate the cake with a spoon**
+        - Used a spoon or cake had a spoon ?
+    - #### Challenge: Need understanding of logical meaning
+
+- #### Pragmatic Ambiguity
+
+    - Meaning changes based on intention, tone or social context
+    - E.g, **Can you pass the salt ?**
+        - Request not a question
+    - #### Challenge: Must understand intent + culture
+
+---
