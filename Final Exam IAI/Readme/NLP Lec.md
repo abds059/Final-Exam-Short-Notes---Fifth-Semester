@@ -110,4 +110,103 @@ Removing stopwords helps in reducing dimensionality of the text data improving e
 
 ### Named Entity Recognition (NER)
 
+- Key subtask of IE
+- Focused on identifying and classifying proper nouns (people, organizations, locations, dates and quantities)
+- Crucial for understanding `who`, `where` and `when` in given text
 
+#### Challenges In NER
+
+- #### Ambiguity and Context Insensitivity
+    
+    - Entities can be ambigous requiring context to classify them
+    - E.g, Apple may refer to a fruit or company
+
+- #### Variability In Entity Names
+
+    - Entities can have multiple names/aliases making consistent recognition difficult
+    - E.g, Newyork and NYC
+
+- #### Domain and Language Variability
+
+    - NER models trained on one domain will underperform on other domains 
+
+- #### Rule Based Approaches
+
+    - Detection using RE and gazetteers (predefined entity lists)
+    - E.g, Name detection done using `Mr.[A-Z][a-z]+`
+    - Limited as they fail to generalize across different domains and languages
+
+### NER Techniques
+
+#### Machine Learning Based Approaches
+
+- #### Supervised Learning
+
+    - Training on labeled data using manually annotated entities
+    - HMMs, CRFs, LSTM-CRF and BERT
+    - E.g, BERT models can recognize entities by understanding context so are highly effective
+
+- #### Unsupervised Learning
+
+    - Use of clustering and pattern recognition to identify entities
+    - Less common but applicable when labeled data is scarce
+
+#### Evaluation Metrics
+
+- Precision, recall and F1-score commonly used to evaluate performance of NER systems
+    
+    - Precision (percentage of correctly identified entities out of all identified entities)
+    - Recall (percentage of correctly identified entities out of all actual entities)
+    - F1 (harmonic mean of precision and recall)
+
+---
+
+### POS Tagging
+
+- Assign grammatical tags (noun, verb, adjective) to each word
+- Helps understand sentence structure
+
+### POS Tagging Techniques
+
+#### Rule Based Approaches
+
+- Uses dictionary + hand crafted rules 
+- E.g, Word after `the` is likely a `noun`
+
+- #### Limitations: 
+
+    Cannot handle ambigous or unseen words
+
+#### ML Based Approaches
+
+- #### Supervised Learning
+
+    - Uses labeled corpora
+    - Algorithms like HMMs, LSTM, Tranformers
+    - E.g, LSTM uses full sentence context to choose correct POS tag
+
+- #### Unsupervised Learning
+
+    - Clusters words by distribution patterns
+    - Less accurate but useful in scenarios where labels are unavailable
+
+#### Evaluation Metrics
+
+- Accuracy: Percentage of correctly tagged words
+
+### Challenges In POS Tagging
+
+- #### Ambiguity
+
+    - Words may have multiple POS
+    - For e.g, run (noun/verb)
+
+- #### Morphological Variability
+
+    - Languages like Turkish/Finnish have complex word forms
+
+- #### Domain and Language Differences
+
+    - Models trained on one domain may fail on other domains
+
+---
