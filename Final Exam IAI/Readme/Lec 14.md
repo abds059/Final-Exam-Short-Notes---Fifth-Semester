@@ -1,6 +1,6 @@
 # Lec 14
 
-## Decarative Knowledge
+## Declarative Knowledge
 
 - Knowledge about facts and concepts
 
