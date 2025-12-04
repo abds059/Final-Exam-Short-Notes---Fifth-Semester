@@ -32,7 +32,7 @@
 
     Knowledge of programming language syntax and commands, such as knowing how to write a loop in python
 
-#### Representation In AI Systems
+### Representation In AI Systems
 
 - #### Knowledge Bases
 
