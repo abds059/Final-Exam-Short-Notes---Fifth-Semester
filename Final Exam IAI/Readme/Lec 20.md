@@ -4,7 +4,7 @@
 
 ### Definition and Role
 
-- Contains facts, rules and heuritics
+- Contains facts, rules and heuristics
 - Contains both declarative as well as procedural knowledge
 
 ### Types Of Knowledge Stored
