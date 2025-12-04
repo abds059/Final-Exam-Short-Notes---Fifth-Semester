@@ -16,7 +16,7 @@ generate human language
 
 - **Word Tokenization:** Splitting sentence into individual words
 - **Sentence Tokenization:** Splitting a text into individual sentences
-- **Subword Tokenization:** Breaking words into meaningful parts (used in BET and GPT)
+- **Subword Tokenization:** Breaking words into meaningful parts (used in BERT and GPT)
 
 #### Challenges In Tokenization
 
